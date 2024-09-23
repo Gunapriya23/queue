@@ -1,0 +1,11 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Queue<Integer>q = new LinkedList<>();
+        q.offer(34);
+        q.offer(90);
+        q.offer(87);
+        q.offer(54);
+        System.out.println(q);
+    }
+}
